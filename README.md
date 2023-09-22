@@ -11,6 +11,6 @@ My Technical interests were:
 * JavaScript.
 * MySQL.
 * HTML,CSS.
-
+* Java.
 
 ![Power Puff Girls](https://github.com/NavyaKoppada/CIS641-HW2-Koppada/assets/52247480/7da412c8-87dc-4a4d-9cef-06b245bd87cb)
