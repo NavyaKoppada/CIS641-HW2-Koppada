@@ -59,7 +59,11 @@ h4 {
 }
 
 .navbar-nav {
-  padding-left: 60%;
+  padding-left: 0; /* Reset the padding to zero */
+}
+
+.navbar-nav > li {
+  margin-left: 20px; /* Add spacing between the links */
 }
 
 html {
@@ -90,7 +94,7 @@ html {
 
 /* Footer Styles */
 footer {
-  background-color: #bdbcbc;
+  background-color: #808080;
   color: white;
   text-align: center;
   padding: 5px;
@@ -118,13 +122,53 @@ footer {
 
 /* Style the social icons as needed */
 .social-icons img {
-  width: 30px;
+  width: 35px;
   height: 30px;
   border: none;
+  border-radius: 50%;
 }
 
 body {
   margin-bottom: 0; /* Remove extra space at the bottom of the page */
+}
+
+/* Styling for the navbar */
+.navbar {
+  background-color: #333;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  padding: 0px; /* Add padding to the navbar */
+}
+
+.navbar-brand {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 500px; /* Add space between the image and text */
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-nav > li {
+  margin-left: 20px;
 }
 </style>
 </head>
@@ -135,13 +179,14 @@ body {
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#home">
-            <img src="./images/profile.png" alt="Profile" class="image">
-            NavyaKoppada</a>
+            <img src="./images/profile.png" alt="Profile">
+            <span>Navya Koppada</span>
+          </a>
         </div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-              <li><a href="#contact">Contact</a></li>  
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>  
           <li><a href="./tech.html">Tech Stuff</a></li>     
         </ul>
       </div>
@@ -152,7 +197,7 @@ body {
     <div>
     <h1> Hi, I'm Navya Koppada &#128512;</h1>
     <h2>Web Developer | SQL Developer | Critical Thinker</h2>
-   <p>
+    <p>
      <b> I worked 1.8 years for the company <a href ="https://www.cognizant.com/us/en">Cognizant</a> as a Software Developer for an 
       Health insurance project CANARA HSBC OBC. My Technical interests were: JAVA, MySQL, HTML/CSS. As a passionate UI developer, I craft digital experiences that blend creativity and functionality. With a keen eye for design and a commitment 
       to user-centered development, I bring websites and applications to life.</b></p>
@@ -164,7 +209,7 @@ body {
     <footer>
       <div class="container">
           <ul class="social-icons">
-             <li><a href="mailto:your@email.com"><img src="./images/mail.jpeg" alt="Email"></a></li>
+              <li><a href="mailto:your@email.com"><img src="./images/mail.jpeg" alt="Email"></a></li>
               <li><a href="https://twitter.com/yourtwitter"><img src="./images/twitter.png" alt="Twitter"></a></li>
               <li><a href="https://github.com/"><img src="./images/github.jpeg" alt="GitHub"></a></li>
           </ul>
