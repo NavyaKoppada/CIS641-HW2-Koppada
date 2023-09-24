@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Assignment 2</title>
-<link rel="stylesheet" href="./styles.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>
+  <title>Assignment 2</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
 h1 {
   position: static;
   text-align: center;
@@ -170,50 +171,62 @@ body {
 .navbar-nav > li {
   margin-left: 20px;
 }
-</style>
+
+  </style>
 </head>
 <body>
-  
-    <div class="background-image"></div>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#home">
-            <img src="./images/profile.png" alt="Profile">
-            <span>Navya Koppada</span>
-          </a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#contact">Contact</a></li>  
-          <li><a href="./tech.html">Tech Stuff</a></li>     
-        </ul>
-      </div>
-    </nav>
-    <div>
-      <h1><img src="./images/girl.png" width="400" height="250"></h1>
-    </div>
-    <div>
-    <h1> Hi, I'm Navya Koppada &#128512;</h1>
-    <h2>Web Developer | SQL Developer | Critical Thinker</h2>
-    <p>
-     <b> I worked 1.8 years for the company <a href ="https://www.cognizant.com/us/en">Cognizant</a> as a Software Developer for an 
-      Health insurance project CANARA HSBC OBC. My Technical interests were: JAVA, MySQL, HTML/CSS. As a passionate UI developer, I craft digital experiences that blend creativity and functionality. With a keen eye for design and a commitment 
-      to user-centered development, I bring websites and applications to life.</b></p>
-    </div>
-    <div>
-      <a href="https://github.com/NavyaKoppada/CIS641-HW2-Koppada"><p class="back">Go back to HomeWorkPage</p></a>
-    </div>
 
-    <footer>
-      <div class="container">
-          <ul class="social-icons">
-              <li><a href="mailto:your@email.com"><img src="./images/mail.jpeg" alt="Email"></a></li>
-              <li><a href="https://twitter.com/yourtwitter"><img src="./images/twitter.png" alt="Twitter"></a></li>
-              <li><a href="https://github.com/"><img src="./images/github.jpeg" alt="GitHub"></a></li>
-          </ul>
-      </div>
-    </footer>
+<div class="background-image"></div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#home">
+        <img src="./images/profile.png" alt="Profile">
+        <span>Navya Koppada</span>
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#tech">Tech Stuff</a></li>
+    </ul>
+  </div>
+</nav>
+<div>
+  <h1><img src="./images/girl.png" width="400" height="250"></h1>
+</div>
+<div>
+  <h1> Hi, I'm Navya Koppada &#128512;</h1>
+  <h2>Web Developer | SQL Developer | Critical Thinker</h2>
+  <p>
+    <b> I worked 1.8 years for the company <a href="https://www.cognizant.com/us/en">Cognizant</a> as a Software Developer for an 
+    Health insurance project CANARA HSBC OBC. My Technical interests were: JAVA, MySQL, HTML/CSS. As a passionate UI developer, I craft digital experiences that blend creativity and functionality. With a keen eye for design and a commitment 
+    to user-centered development, I bring websites and applications to life.</b></p>
+</div>
+<div>
+  <a href="https://github.com/NavyaKoppada/CIS641-HW2-Koppada"><p class="back">Go back to HomeWorkPage</p></a>
+</div>
+
+<footer>
+  <div class="container">
+    <ul class="social-icons">
+      <li><a href="mailto:your@email.com"><img src="./images/mail.jpeg" alt="Email"></a></li>
+      <li><a href="https://twitter.com/yourtwitter"><img src="./images/twitter.png" alt="Twitter"></a></li>
+      <li><a href="https://github.com/"><img src="./images/github.jpeg" alt="GitHub"></a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+// JavaScript for toggling active class on navbar links
+$(document).ready(function () {
+  $('ul.nav.navbar-nav li').click(function () {
+    $('li').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+</script>
+
 </body>
 </html>
