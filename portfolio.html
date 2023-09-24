@@ -7,196 +7,187 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+    h1 {
+      position: static;
+      text-align: center;
+      color: black;
+      font-family: verdana;
+      font-size: 100%;
+    }
+
+    p {
+      color: black;
+      text-align: center;
+      font-family: courier;
+      font-size: 100%;
+    }
+
+    .back {
+      color: black;
+      text-align: center;
+      margin-top: 2%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    h2 {
+      position: static;
+      text-align: center;
+      color: rgb(30, 0, 255);
+      font-family: verdana;
+      font-size: 150%;
+    }
+
+    h4 {
+      position: static;
+      text-align: center;
+      color: #D4AC0D;
+      font-family: verdana;
+      font-size: 150%;
+    }
+
+    .image {
+      width: auto;
+      max-height: 50%;
+      margin-right: 10px;
+      padding: 0%;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    #section1 {
+      height: 600px;
+      background-color: pink;
+    }
+
+    #section2 {
+      height: 600px;
+      background-color: yellow;
+    }
+
+    .background-image {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      background-image: url('./images/background.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -10;
+    }
+
   
-h1 {
-  position: static;
-  text-align: center;
-  color: black;
-  font-family: verdana;
-  font-size: 100%;
-}
+    footer {
+      background-color: #808080;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      padding-bottom: 0%;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
 
-p  {
-  color: black;
-  text-align: center;
-  font-family: courier;
-  font-size: 100%;
-}
+    .container {
+      display: flex;
+      justify-content: center;
+    }
 
-.back{
-  color: black;
-  text-align: center;
-  margin-top: 2%;
-}
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+    .social-icons li {
+      display: inline-block;
+      margin-right: 20px;
+    }
 
-h2 {
-  position: static;
-  text-align: center;
-  color: rgb(30, 0, 255);
-  font-family: verdana;
-  font-size: 150%;
-}
+   
+    .social-icons img {
+      width: 35px;
+      height: 30px;
+      border: none;
+      border-radius: 50%;
+    }
 
-h4 {
-  position: static;
-  text-align: center;
-  color: #D4AC0D;
-  font-family: verdana;
-  font-size: 150%;
-}
+    body {
+      margin-bottom: 0;
+    }
 
-.image {
-  width: auto;
-  max-height: 50%;
-  margin-right: 10px;
-  padding: 0%;
-}
 
-.navbar-nav {
-  padding-left: 0; /* Reset the padding to zero */
-}
+    .navbar {
+      background-color: #333;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+      padding: 0px; 
+    }
 
-.navbar-nav > li {
-  margin-left: 20px; /* Add spacing between the links */
-}
+    .navbar-brand {
+      color: white;
+      display: flex;
+      align-items: center;
+      margin-right: 500px; 
+    }
 
-html {
-  scroll-behavior: smooth;
-}
+    .navbar-brand img {
+      width: 40px;
+      height: auto;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
 
-#section1 {
-  height: 600px;
-  background-color: pink;
-}
+    .navbar-brand span {
+      font-size: 24px;
+      white-space: nowrap;
+    }
 
-#section2 {
-  height: 600px;
-  background-color: yellow;
-}
+    .navbar-nav > li > a:hover
+    {
+      color: rgb(18, 17, 17) !important;
+    }
 
-.background-image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  background-image: url('./images/background.jpeg'); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -10;
-}
+    .navbar-nav > li.active > a
+    {
+      color: rgb(91, 81, 81)
+    }
 
-/* Footer Styles */
-footer {
-  background-color: #808080;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  padding-bottom: 0%;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+    .navyakoppada {
+      color: white; 
+      font-size: 24px; 
+      white-space: nowrap; 
+    }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
 
-.social-icons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+    .btn-pink {
+      background-color: #FFB6C1; 
+      color: #fff; 
+      border: none;
+      padding: 10px 20px; 
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px auto; 
+      cursor: pointer;
+      border-radius: 5px; 
+    }
 
-.social-icons li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-/* Style the social icons as needed */
-.social-icons img {
-  width: 35px;
-  height: 30px;
-  border: none;
-  border-radius: 50%;
-}
-
-body {
-  margin-bottom: 0; /* Remove extra space at the bottom of the page */
-}
-
-/* Styling for the navbar */
-.navbar {
-  background-color: #333;
-  border: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Align items vertically in the center */
-  padding: 0px; /* Add padding to the navbar */
-}
-
-.navbar-brand {
-  color: white;
-  display: flex;
-  align-items: center;
-  margin-right: 500px; /* Add space between the image and text */
-}
-
-.navbar-brand img {
-  width: 40px;
-  height: auto;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-
-.navbar-brand span {
-  font-size: 24px;
-  white-space: nowrap;
-}
-
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.navbar-nav > li {
-  margin-left: 20px;
-}
-/* Add styling for the pink button */
-.btn-pink {
-  background-color: #FFB6C1; /* Baby pink background color */
-  color: #fff; /* White text color */
-  border: none;
-  padding: 10px 20px; /* Adjust padding as needed */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px auto; /* Center the button horizontally */
-  cursor: pointer;
-  border-radius: 5px; /* Rounded corners */
-}
-
-/* Style the button on hover */
-.btn-pink:hover {
-  background-color: #FF69B4; /* Lighter pink color on hover */
-}
-
-.navyakoppada {
-  color: white; /* Set the color of the text */
-  font-size: 24px; /* Set the font size */
-  white-space: nowrap; /* Prevent text from wrapping */
-}
-
+    
+    .btn-pink:hover {
+      background-color: #FF69B4; 
+    }
 
   </style>
 </head>
@@ -211,15 +202,15 @@ body {
         <img src="./images/profile.png" alt="Profile" data-toggle="tooltip" title="No Profile picture">
         <span class="navyakoppada" data-toggle="tooltip" title="Hello, I'm Navya Koppada">Navya Koppada</span>
       </a>
-    </div>
-    
-    
-    <ul class="nav navbar-nav">
+   
+
+    <ul class="nav navbar-nav ">
       <li class="active"><a href="#home">Home</a></li>
       <li><a href="#about">About Me</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#tech">Tech Stuff</a></li>
     </ul>
+  </div>
   </div>
 </nav>
 <div>
@@ -250,7 +241,7 @@ body {
 </footer>
 
 <script>
-// JavaScript for toggling active class on navbar links
+
 $(document).ready(function () {
   $('ul.nav.navbar-nav li').click(function () {
     $('li').removeClass('active');
