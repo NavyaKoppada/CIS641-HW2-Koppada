@@ -171,6 +171,32 @@ body {
 .navbar-nav > li {
   margin-left: 20px;
 }
+/* Add styling for the pink button */
+.btn-pink {
+  background-color: #FFB6C1; /* Baby pink background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto; /* Center the button horizontally */
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the button on hover */
+.btn-pink:hover {
+  background-color: #FF69B4; /* Lighter pink color on hover */
+}
+
+.navyakoppada {
+  color: white; /* Set the color of the text */
+  font-size: 24px; /* Set the font size */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
 
   </style>
 </head>
@@ -179,12 +205,15 @@ body {
 <div class="background-image"></div>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
+
     <div class="navbar-header">
       <a class="navbar-brand" href="#home">
-        <img src="./images/profile.png" alt="Profile">
-        <span>Navya Koppada</span>
+        <img src="./images/profile.png" alt="Profile" data-toggle="tooltip" title="No Profile picture">
+        <span class="navyakoppada" data-toggle="tooltip" title="Hello, I'm Navya Koppada">Navya Koppada</span>
       </a>
     </div>
+    
+    
     <ul class="nav navbar-nav">
       <li class="active"><a href="#home">Home</a></li>
       <li><a href="#about">About Me</a></li>
@@ -196,6 +225,7 @@ body {
 <div>
   <h1><img src="./images/girl.png" width="400" height="250"></h1>
 </div>
+
 <div>
   <h1> Hi, I'm Navya Koppada &#128512;</h1>
   <h2>Web Developer | SQL Developer | Critical Thinker</h2>
@@ -204,9 +234,10 @@ body {
     Health insurance project CANARA HSBC OBC. My Technical interests were: JAVA, MySQL, HTML/CSS. As a passionate UI developer, I craft digital experiences that blend creativity and functionality. With a keen eye for design and a commitment 
     to user-centered development, I bring websites and applications to life.</b></p>
 </div>
-<div>
-  <a href="https://github.com/NavyaKoppada/CIS641-HW2-Koppada"><p class="back">Go back to HomeWorkPage</p></a>
+<div class="container text-center">
+  <a href="https://github.com/NavyaKoppada/CIS641-HW2-Koppada" class="btn btn-pink">Go back to HomeWorkPage</a>
 </div>
+
 
 <footer>
   <div class="container">
