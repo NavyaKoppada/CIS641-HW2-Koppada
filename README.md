@@ -13,4 +13,4 @@ My Technical interests were:
 * HTML,CSS.
 * Java.
 
-![Power Puff Girls](https://github.com/NavyaKoppada/CIS641-HW2-Koppada/assets/52247480/7da412c8-87dc-4a4d-9cef-06b245bd87cb)
+![Power Puff Girls](https://cdn.shopify.com/s/files/1/0435/1216/8606/files/Coffee-is-ready-Coffee-Memes_480x480.jpg?v=1633902188)
