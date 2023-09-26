@@ -1,10 +1,12 @@
-# Navya Koppada #
+# Navya Koppada 
+
+## Interests
 
 * Playing carrom board.
 * Watching feel good movies.
 * Spending time with family or friends.
 
-## Technical Background ##
+## Technical Background 
 
 I worked 1.8 years for the company  [cognizant](https://www.cognizant.com/us/en/about-cognizant "Cognizant Technologies") as a Software Developer for an Health insurance project CANARA HSBC OBC.
 My Technical interests were:
