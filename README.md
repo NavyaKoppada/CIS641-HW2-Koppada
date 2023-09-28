@@ -17,4 +17,4 @@ My Technical interests were:
 
 ## A link to a picture of my favorite meme
 
-[CLick Me](https://cdn.shopify.com/s/files/1/0435/1216/8606/files/Coffee-is-ready-Coffee-Memes_480x480.jpg?v=1633902188)
+[Click Me](https://cdn.shopify.com/s/files/1/0435/1216/8606/files/Coffee-is-ready-Coffee-Memes_480x480.jpg?v=1633902188)
