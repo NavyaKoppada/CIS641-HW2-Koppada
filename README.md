@@ -1,6 +1,6 @@
 # Navya Koppada 
 
-## Interests
+## Personal Interests
 
 * Playing carrom board.
 * Watching feel good movies.
@@ -15,4 +15,6 @@ My Technical interests were:
 * HTML,CSS.
 * Java.
 
-[My Fav Meme](https://cdn.shopify.com/s/files/1/0435/1216/8606/files/Coffee-is-ready-Coffee-Memes_480x480.jpg?v=1633902188)
+## A link to a picture of my favorite meme
+
+[CLick Me](https://cdn.shopify.com/s/files/1/0435/1216/8606/files/Coffee-is-ready-Coffee-Memes_480x480.jpg?v=1633902188)
